@@ -29,7 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="left"
-        android:text="To Raise the adrenaline level !!!\n\nDevelopers:\n\nShayan Anwar (COEP)\nShubham Mandal(IIT Roorkee...)"
+        android:text="To Raise the adrenaline level !!!\n\nDeveloper:\n\nShiraz Anwar"
         android:textColor="#ffffffff"
         android:padding="30dp"
         android:textSize="20dp"
