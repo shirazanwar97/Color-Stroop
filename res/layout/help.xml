@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/helpscreen">"
+
+    <TextView
+      
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HOW TO PLAY !!"
+        android:textSize="35dp"
+        android:gravity="center_horizontal"
+        android:padding="20dp"
+      
+        android:textStyle="bold|italic" 
+        android:textColor="#ffff"/>
+
+    <TextView
+      
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="30dp"
+        android:text="Color Stroop improves the processing speed of your brain!!\n\nYou just need to match the colour of the  Rods with that written in the middle.\n\nWhenever this happens,Choose the Right button to level up.Else choose the Wrong one.\n\nThats it !! "
+        android:textColor="#ffff0000"
+        android:textSize="18.5dp"
+        android:textStyle="italic|bold" />
+
+    <ImageView
+        android:id="@+id/ivhome"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:src="@drawable/home"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

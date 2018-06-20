@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/background"
+    android:layout_height="match_parent"
+    android:background="#ff000000"
+    android:orientation="vertical"
+     android:weightSum="100" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:layout_weight="35"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="35dp"
+            android:textStyle="bold|italic"
+            android:textColor="#ffff0000"
+            android:text="WELL PLAYED!!!" />
+        
+        <TextView
+            android:id="@+id/tvcompliment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="#ffffffff"
+            android:padding="10dp"
+            android:textStyle="italic"
+            android:text="NOT YET THERE" />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="25"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+         >
+
+       <TextView
+            android:id="@+id/tvhighscore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HIGHSCORE" 
+            android:textSize="35dp"
+            android:textColor="#ffffffff"
+            android:paddingBottom="40dp"
+           />
+            
+        <TextView
+            android:id="@+id/tvscore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="70dp"
+            android:padding="10dp"
+            android:text="tv1"
+            android:textColor="#ffffffff" />
+
+    
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="40" 
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <ImageView
+            android:id="@+id/ivreplay"
+            android:layout_weight="50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/replay" />
+
+        <ImageView
+            android:layout_weight="50"
+            android:id="@+id/ivhome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/home" />
+
+    </LinearLayout>
+
+</LinearLayout>
